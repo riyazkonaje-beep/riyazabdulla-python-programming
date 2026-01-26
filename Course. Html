@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python for Beginners - Course Site</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; background-color: #f4f4f4; }
+        header { background: #007bff; color: white; padding: 1rem; text-align: center; }
+        nav { background: #333; padding: 0.5rem; }
+        nav ul { list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; flex-wrap: wrap; }
+        nav li { margin: 0 1rem; }
+        nav a { color: white; text-decoration: none; }
+        main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; background: white; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        section { margin-bottom: 2rem; border-bottom: 1px solid #ddd; padding-bottom: 1rem; }
+        h1, h2 { color: #007bff; }
+        ul { padding-left: 1.2rem; }
+        a { color: #007bff; }
+        footer { text-align: center; padding: 1rem; background: #333; color: white; }
+        @media (max-width: 600px) { nav ul { flex-direction: column; } nav li { margin: 0.5rem 0; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Python for Beginners</h1>
+        <p>Welcome, students! This is your one-stop site for all course materials.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#syllabus">Syllabus</a></li>
+            <li><a href="#lectures">Lectures</a></li>
+            <li><a href="#assignments">Assignments</a></li>
+            <li><a href="#resources">Resources</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="syllabus">
+            <h2>Syllabus</h2>
+            <ul>
+                <li>Week 1: Introduction to Python & Variables</li>
+                <li>Week 2: Control Structures (if/else, loops)</li>
+                <li>Week 3: Functions & Modules</li>
+                <li>Week 4: Data Structures (Lists, Dicts)</li>
+                <li>Week 5: File I/O & Error Handling</li>
+                <li>Week 6: Intro to OOP</li>
+            </ul>
+            <p>Grading: 40% Assignments, 30% Midterm, 30% Final Project.</p>
+        </section>
+        
+        <section id="lectures">
+            <h2>Lectures</h2>
+            <ul>
+                <li><a href="lectures/week1.html">Week 1: Intro Slides (PDF)</a> | <a href="https://drive.google.com/...">Video Recording</a></li>
+                <li><a href="lectures/week2.html">Week 2: Notes</a></li>
+                <!-- Add more links as you upload files -->
+            </ul>
+        </section>
+        
+        <section id="assignments">
+            <h2>Assignments</h2>
+            <ul>
+                <li><a href="assignments/hw1.pdf">Homework 1: Variables Exercise</a> (Due: Feb 2)</li>
+                <li><a href="assignments/hw2.ipynb">Homework 2: Loops (Jupyter Notebook)</a> (Due: Feb 9)</li>
+                <!-- Submit via email or GitHub Classroom -->
+            </ul>
+        </section>
+        
+        <section id="resources">
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="https://docs.python.org/3/">Official Python Docs</a></li>
+                <li><a href="https://www.codecademy.com/learn/learn-python-3">Codecademy Python Course</a></li>
+                <li>Office Hours: Tuesdays 4-5 PM IST (Zoom link: <a href="https://zoom.us/...">Join</a>)</li>
+                <li>Contact: <a href="mailto:riyaz@example.com">Email Instructor</a></li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Riyaz Abdulla. Built with GitHub Pages. Last updated: Jan 26, 2026.</p>
+    </footer>
+</body>
+</html>
